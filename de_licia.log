@@ -39796,3 +39796,601 @@ Total triangle count: 8513
 Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
 34 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.vmf
+Map revision 566
+Patching WVT material: maps/de_licia/de_cbble/roof_alt/roof_a_damaged_wvt_patch
+Patching WVT material: maps/de_licia/gg_tibet/blend_snow_tile_tibet_wvt_patch
+Patching WVT material: maps/de_licia/ground/blendsnow_blacktop_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 104 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (266725 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 622 texinfos to 337
+Reduced 65 texdatas to 55 (1898 bytes to 1525)
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt
+ 955 portalclusters
+3251 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18098 visible clusters (0.00%)
+Total clusters visible: 851687
+Average clusters visible: 891
+Building PAS...
+Average clusters audible: 953
+visdatasize:236187  compressed from 229200
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+2888 faces
+2 degenerate faces
+705153 square feet [101542136.00 square inches]
+96 Displacements
+55840 Square Feet [8040996.00 Square Inches]
+2886 patches before subdivision
+36556 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2721321, max 750
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(782701, 727853, 654941)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(223284, 177716, 156985)
+Build Patch/Sample Hash Table(s).....Done<0.0091 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                734/8192         8808/98304    ( 9.0%) 
+brushsides            4963/81920       39704/655360   ( 6.1%) 
+planes                2754/65536       55080/1310720  ( 4.2%) 
+vertexes              5513/65536       66156/786432   ( 8.4%) 
+nodes                 1890/65536       60480/2097152  ( 2.9%) 
+texinfos               337/12288       24264/884736   ( 2.7%) 
+texdata                 55/4096         1760/131072   ( 1.3%) 
+dispinfos               96/0           16896/0        ( 0.0%) 
+disp_verts           12560/0          251200/0        ( 0.0%) 
+disp_tris            21120/0           42240/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      144996/0          144996/0        ( 0.0%) 
+faces                 2888/65536      161728/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1848/65536      103488/3670016  ( 2.8%) 
+facebrushes            573/0            1146/0        ( 0.0%) 
+facebrushlists        2888/0           11552/0        ( 0.0%) 
+leaves                1902/65536       60864/2097152  ( 2.9%) 
+leaffaces             3515/65536        7030/131072   ( 5.4%) 
+leafbrushes           1617/65536        3234/131072   ( 2.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            21684/512000      86736/2048000  ( 4.2%) 
+edges                13978/256000      55912/1024000  ( 5.5%) 
+LDR worldlights         73/8192         7300/819200   ( 0.9%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            337/32768        3370/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6534/65536       13068/131072   (10.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                60/1024        21120/360448   ( 5.9%) 
+LDR lightdata         [variable]     2325668/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      236187/16777216 ( 1.4%) 
+entdata               [variable]       35642/393216   ( 9.1%) 
+LDR ambient table     1902/65536        7608/262144   ( 2.9%) 
+HDR ambient table     1902/65536        7608/262144   ( 2.9%) 
+LDR leaf ambient     10144/65536      284032/1835008  (15.5%) 
+HDR leaf ambient      1902/65536       53256/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5008     ( 0.0%) 
+pakfile               [variable]     4335345/0        ( 0.0%) 
+physics               [variable]      266725/4194304  ( 6.4%) 
+physics terrain       [variable]        8243/1048576  ( 0.8%) 
+
+Level flags = 7d
+
+Total triangle count: 8513
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+34 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.vmf
+Map revision 567
+Patching WVT material: maps/de_licia/de_cbble/roof_alt/roof_a_damaged_wvt_patch
+Patching WVT material: maps/de_licia/gg_tibet/blend_snow_tile_tibet_wvt_patch
+Patching WVT material: maps/de_licia/ground/blendsnow_blacktop_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 126 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (268965 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 626 texinfos to 342
+Reduced 65 texdatas to 55 (1880 bytes to 1507)
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt
+ 945 portalclusters
+3177 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18149 visible clusters (0.00%)
+Total clusters visible: 833434
+Average clusters visible: 881
+Building PAS...
+Average clusters audible: 943
+visdatasize:231608  compressed from 226800
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+2928 faces
+2 degenerate faces
+703830 square feet [101351624.00 square inches]
+96 Displacements
+55840 Square Feet [8040995.50 Square Inches]
+2926 patches before subdivision
+zero area child patch
+36556 patches after subdivision
+74 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2765749, max 758
+transfer lists:  21.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(792278, 737196, 663420)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(224921, 179103, 158262)
+Build Patch/Sample Hash Table(s).....Done<0.0090 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                738/8192         8856/98304    ( 9.0%) 
+brushsides            4997/81920       39976/655360   ( 6.1%) 
+planes                2768/65536       55360/1310720  ( 4.2%) 
+vertexes              5578/65536       66936/786432   ( 8.5%) 
+nodes                 1887/65536       60384/2097152  ( 2.9%) 
+texinfos               342/12288       24624/884736   ( 2.8%) 
+texdata                 55/4096         1760/131072   ( 1.3%) 
+dispinfos               96/0           16896/0        ( 0.0%) 
+disp_verts           12560/0          251200/0        ( 0.0%) 
+disp_tris            21120/0           42240/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      144996/0          144996/0        ( 0.0%) 
+faces                 2928/65536      163968/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1876/65536      105056/3670016  ( 2.9%) 
+facebrushes            584/0            1168/0        ( 0.0%) 
+facebrushlists        2928/0           11712/0        ( 0.0%) 
+leaves                1899/65536       60768/2097152  ( 2.9%) 
+leaffaces             3569/65536        7138/131072   ( 5.4%) 
+leafbrushes           1634/65536        3268/131072   ( 2.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            22019/512000      88076/2048000  ( 4.3%) 
+edges                14161/256000      56644/1024000  ( 5.5%) 
+LDR worldlights         74/8192         7400/819200   ( 0.9%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            359/32768        3590/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6909/65536       13818/131072   (10.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                59/1024        20768/360448   ( 5.8%) 
+LDR lightdata         [variable]     2298136/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      231608/16777216 ( 1.4%) 
+entdata               [variable]       35972/393216   ( 9.1%) 
+LDR ambient table     1899/65536        7596/262144   ( 2.9%) 
+HDR ambient table     1899/65536        7596/262144   ( 2.9%) 
+LDR leaf ambient      9981/65536      279468/1835008  (15.2%) 
+HDR leaf ambient      1899/65536       53172/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5008     ( 0.0%) 
+pakfile               [variable]     4335345/0        ( 0.0%) 
+physics               [variable]      268965/4194304  ( 6.4%) 
+physics terrain       [variable]        8243/1048576  ( 0.8%) 
+
+Level flags = 7d
+
+Total triangle count: 8655
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.vmf
+Map revision 568
+Patching WVT material: maps/de_licia/de_cbble/roof_alt/roof_a_damaged_wvt_patch
+Patching WVT material: maps/de_licia/gg_tibet/blend_snow_tile_tibet_wvt_patch
+Patching WVT material: maps/de_licia/ground/blendsnow_blacktop_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 126 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (268965 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 597 texinfos to 341
+Reduced 62 texdatas to 54 (1712 bytes to 1346)
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt
+ 945 portalclusters
+3177 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18149 visible clusters (0.00%)
+Total clusters visible: 833434
+Average clusters visible: 881
+Building PAS...
+Average clusters audible: 943
+visdatasize:231608  compressed from 226800
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+2929 faces
+2 degenerate faces
+703830 square feet [101351624.00 square inches]
+96 Displacements
+55840 Square Feet [8040995.50 Square Inches]
+2927 patches before subdivision
+zero area child patch
+36553 patches after subdivision
+74 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2765766, max 758
+transfer lists:  21.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(792205, 738535, 665255)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(223939, 179484, 158873)
+Build Patch/Sample Hash Table(s).....Done<0.0115 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                738/8192         8856/98304    ( 9.0%) 
+brushsides            4997/81920       39976/655360   ( 6.1%) 
+planes                2768/65536       55360/1310720  ( 4.2%) 
+vertexes              5578/65536       66936/786432   ( 8.5%) 
+nodes                 1887/65536       60384/2097152  ( 2.9%) 
+texinfos               341/12288       24552/884736   ( 2.8%) 
+texdata                 54/4096         1728/131072   ( 1.3%) 
+dispinfos               96/0           16896/0        ( 0.0%) 
+disp_verts           12560/0          251200/0        ( 0.0%) 
+disp_tris            21120/0           42240/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      144996/0          144996/0        ( 0.0%) 
+faces                 2929/65536      164024/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1877/65536      105112/3670016  ( 2.9%) 
+facebrushes            584/0            1168/0        ( 0.0%) 
+facebrushlists        2929/0           11716/0        ( 0.0%) 
+leaves                1899/65536       60768/2097152  ( 2.9%) 
+leaffaces             3570/65536        7140/131072   ( 5.4%) 
+leafbrushes           1634/65536        3268/131072   ( 2.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            22027/512000      88108/2048000  ( 4.3%) 
+edges                14161/256000      56644/1024000  ( 5.5%) 
+LDR worldlights         74/8192         7400/819200   ( 0.9%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            359/32768        3590/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6909/65536       13818/131072   (10.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                59/1024        20768/360448   ( 5.8%) 
+LDR lightdata         [variable]     2310564/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      231608/16777216 ( 1.4%) 
+entdata               [variable]       35972/393216   ( 9.1%) 
+LDR ambient table     1899/65536        7596/262144   ( 2.9%) 
+HDR ambient table     1899/65536        7596/262144   ( 2.9%) 
+LDR leaf ambient      9984/65536      279552/1835008  (15.2%) 
+HDR leaf ambient      1899/65536       53172/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5008     ( 0.0%) 
+pakfile               [variable]     4334256/0        ( 0.0%) 
+physics               [variable]      268965/4194304  ( 6.4%) 
+physics terrain       [variable]        8243/1048576  ( 0.8%) 
+
+Level flags = 7d
+
+Total triangle count: 8657
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+34 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.vmf
+Map revision 569
+Patching WVT material: maps/de_licia/de_cbble/roof_alt/roof_a_damaged_wvt_patch
+Patching WVT material: maps/de_licia/gg_tibet/blend_snow_tile_tibet_wvt_patch
+Patching WVT material: maps/de_licia/ground/blendsnow_blacktop_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 126 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (269452 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 596 texinfos to 340
+Reduced 63 texdatas to 55 (1735 bytes to 1369)
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+reading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.prt
+ 949 portalclusters
+3200 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18258 visible clusters (0.00%)
+Total clusters visible: 840643
+Average clusters visible: 885
+Building PAS...
+Average clusters audible: 947
+visdatasize:232698  compressed from 227760
+writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+2960 faces
+2 degenerate faces
+704413 square feet [101435528.00 square inches]
+96 Displacements
+55840 Square Feet [8040995.50 Square Inches]
+2958 patches before subdivision
+zero area child patch
+36786 patches after subdivision
+74 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2805433, max 783
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(798335, 746975, 673797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(224407, 182463, 162362)
+Build Patch/Sample Hash Table(s).....Done<0.0110 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                739/8192         8868/98304    ( 9.0%) 
+brushsides            5003/81920       40024/655360   ( 6.1%) 
+planes                2772/65536       55440/1310720  ( 4.2%) 
+vertexes              5584/65536       67008/786432   ( 8.5%) 
+nodes                 1890/65536       60480/2097152  ( 2.9%) 
+texinfos               340/12288       24480/884736   ( 2.8%) 
+texdata                 55/4096         1760/131072   ( 1.3%) 
+dispinfos               96/0           16896/0        ( 0.0%) 
+disp_verts           12560/0          251200/0        ( 0.0%) 
+disp_tris            21120/0           42240/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      144996/0          144996/0        ( 0.0%) 
+faces                 2960/65536      165760/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1890/65536      105840/3670016  ( 2.9%) 
+facebrushes            599/0            1198/0        ( 0.0%) 
+facebrushlists        2960/0           11840/0        ( 0.0%) 
+leaves                1902/65536       60864/2097152  ( 2.9%) 
+leaffaces             3597/65536        7194/131072   ( 5.5%) 
+leafbrushes           1635/65536        3270/131072   ( 2.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            22268/512000      89072/2048000  ( 4.3%) 
+edges                14244/256000      56976/1024000  ( 5.6%) 
+LDR worldlights         74/8192         7400/819200   ( 0.9%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            357/32768        3570/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6879/65536       13758/131072   (10.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                59/1024        20768/360448   ( 5.8%) 
+LDR lightdata         [variable]     2318736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      232698/16777216 ( 1.4%) 
+entdata               [variable]       35972/393216   ( 9.1%) 
+LDR ambient table     1902/65536        7608/262144   ( 2.9%) 
+HDR ambient table     1902/65536        7608/262144   ( 2.9%) 
+LDR leaf ambient     10013/65536      280364/1835008  (15.3%) 
+HDR leaf ambient      1902/65536       53256/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4424     ( 0.0%) 
+pakfile               [variable]     4251960/0        ( 0.0%) 
+physics               [variable]      269452/4194304  ( 6.4%) 
+physics terrain       [variable]        8243/1048576  ( 0.8%) 
+
+Level flags = 7d
+
+Total triangle count: 8784
+Writing c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\msg47\onedrive\ambiente de trabalho\m\de_licia-greybox\de_licia.bsp', but we don't own that location. Allowing...
+31 seconds elapsed
