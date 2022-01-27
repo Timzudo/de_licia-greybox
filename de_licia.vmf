@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9178"
-	"mapversion" "571"
+	"mapversion" "578"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "571"
+	"mapversion" "578"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57544,17 +57544,26 @@ entity
 {
 	"id" "222507"
 	"classname" "trigger_multiple"
-	"origin" "-1744 1464 -1287.19"
+	"origin" "-1944 1516 -1215.59"
 	"spawnflags" "4097"
 	"StartDisabled" "0"
 	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "light1TurnOn0-1"
+		"OnEndTouchAll" "light1TurnOff0.5-1"
+		"OnStartTouch" "lightTurnOn0-1"
+		"OnEndTouchAll" "lightTurnOff0.5-1"
+		"OnStartTouch" "mamboSkin0-1"
+		"OnEndTouchAll" "mamboSkin0.5-1"
+	}
 	solid
 	{
 		"id" "222502"
 		side
 		{
 			"id" "28218"
-			"plane" "(-1768 1488 -1231.19) (-1720 1488 -1231.19) (-1720 1440 -1231.19)"
+			"plane" "(-2024 1624 -1088) (-1864 1624 -1088) (-1864 1408 -1088)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -57565,7 +57574,7 @@ entity
 		side
 		{
 			"id" "28217"
-			"plane" "(-1768 1440 -1343.19) (-1720 1440 -1343.19) (-1720 1488 -1343.19)"
+			"plane" "(-2024 1408 -1343.19) (-1864 1408 -1343.19) (-1864 1624 -1343.19)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -57576,7 +57585,7 @@ entity
 		side
 		{
 			"id" "28216"
-			"plane" "(-1768 1488 -1231.19) (-1768 1440 -1231.19) (-1768 1440 -1343.19)"
+			"plane" "(-2024 1624 -1088) (-2024 1408 -1088) (-2024 1408 -1343.19)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -57587,7 +57596,7 @@ entity
 		side
 		{
 			"id" "28215"
-			"plane" "(-1720 1488 -1343.19) (-1720 1440 -1343.19) (-1720 1440 -1231.19)"
+			"plane" "(-1864 1624 -1343.19) (-1864 1408 -1343.19) (-1864 1408 -1088)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -57598,7 +57607,7 @@ entity
 		side
 		{
 			"id" "28214"
-			"plane" "(-1720 1488 -1231.19) (-1768 1488 -1231.19) (-1768 1488 -1343.19)"
+			"plane" "(-1864 1624 -1088) (-2024 1624 -1088) (-2024 1624 -1343.19)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -57609,7 +57618,7 @@ entity
 		side
 		{
 			"id" "28213"
-			"plane" "(-1720 1440 -1343.19) (-1768 1440 -1343.19) (-1768 1440 -1231.19)"
+			"plane" "(-1864 1408 -1343.19) (-2024 1408 -1343.19) (-2024 1408 -1088)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -75540,7 +75549,7 @@ entity
 	"rendermode" "0"
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -75568,7 +75577,7 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"style" "0"
 	"targetname" "light"
 	"origin" "-1816 1498 -1088"
@@ -77639,9 +77648,9 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"spawnflags" "0"
+	"spawnflags" "1"
 	"style" "0"
-	"targetname" "255 255 255 800"
+	"targetname" "light1"
 	"origin" "-1940 1516 -1120"
 	editor
 	{
@@ -78936,8 +78945,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1729.93 1370.8 -1227.98]"
-		"look" "[-1730.49 1371.49 -1228.44]"
+		"position" "[-1609.63 1519.51 -1168.58]"
+		"look" "[-1608.69 1519.29 -1168.86]"
 	}
 }
 cordons
